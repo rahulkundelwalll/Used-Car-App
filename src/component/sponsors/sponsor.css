@@ -1,0 +1,112 @@
+.c-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* position: relative; */
+    /* align-items: flex-end; */
+    width: 100%;
+
+}
+.con1{
+    display: flex;
+    justify-content: center;
+}
+.con2{
+    display: flex;
+    justify-content: center;
+}
+.con1>img {
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    
+    /* justify-content: space-between; */
+    margin: 30px;
+    padding: 5px;
+    /* border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.433); */
+
+}
+.con2>img {
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    /* justify-content: space-between; */
+    margin: 30px;
+    padding: 5px;
+    /* border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.433); */
+
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+/* @media (max-width: 983px) {
+
+    .c-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .c-container>img {
+        width: 10rem;
+        height: 10rem;
+        text-align: center;
+        
+        margin: 10px;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: rgba(245, 222, 179, 0.433);
+
+    }
+
+} */
+
+@media (max-width: 983px) {
+    
+    .con1{
+        display: block;
+    }
+    .con2{
+        display: block;
+    }
+    .con1>img {
+        width: 12rem;
+        height: 12rem;
+        text-align: center;
+        
+        /* justify-content: space-between; */
+        margin: 0px;
+        padding: 5px;
+        /* border: 2px solid black;
+        border-radius: 20px;
+        background-color: rgba(245, 222, 179, 0.433); */
+    
+    }
+    .con2>img {
+        width: 12rem;
+        height: 12rem;
+        text-align: center;
+        
+        /* justify-content: space-between; */
+        margin: 0px;
+        padding: 5px;
+        /* border: 2px solid black;
+        border-radius: 20px;
+        background-color: rgba(245, 222, 179, 0.433); */
+    
+    }
+
+}
