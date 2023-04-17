@@ -10,7 +10,8 @@ import { sliderSettings } from '../../utils/common'
 function Recedencies() {
     return (
         <section className="r-wrapper">
-            <div className="paddings innerWidth r-container">
+            <div data-aos="fade-up"
+           className="paddings innerWidth r-container">
                 <div className="r-head flexColStart">
                     <span className='orangeText'>Popular Recedencies</span>
                 </div>

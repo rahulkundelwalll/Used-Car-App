@@ -5,11 +5,11 @@ import CountUp from "react-countup";
 
 function Hero() {
   return (
-    <section className="hero-wrapper">
+    <section  className="hero-wrapper" >
 
       <div className="paddings innerWidth flexCenter hero-container ">
         {/* Left side */}
-        <div className="flexColStart hero-left">
+        <div data-aos="fade-right" data-aos-delay="900" className="flexColStart hero-left " >
           <div className="hero-title">
             <div className="orange-circle" />
 
@@ -60,8 +60,9 @@ function Hero() {
         </div>
         {/* right side */}
         <div className="flexCenter hero-right">
-          <div className="image-container">
-            <img src="./heroimage.jpg" alt="loading.." />
+          <div data-aos="fade-left" data-aos-delay="900"className="image-container">
+            <img src="./heroimage.jpg" alt="loading.."  
+          />
           </div>
         </div>
       </div>
