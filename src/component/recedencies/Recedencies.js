@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
 import "swiper/css"
 import "swiper/css/free-mode"
 import './Recedencies.css'
-import { FreeMode } from 'swiper';
 import data from '../../utils/slider.json'
 import { sliderSettings } from '../../utils/common'
 
