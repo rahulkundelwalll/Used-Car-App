@@ -4,7 +4,7 @@ export const content = {
   car: {
     title: "Urus Lamborgini",
     firstName: "Urus",
-    // LastName: "lamborgini",
+    LastName: "Car",
     btnText: "Choose Urus",
     image: car,
     car_content: [

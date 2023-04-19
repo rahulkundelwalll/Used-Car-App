@@ -141,7 +141,7 @@ a {
 }
 
 .secondaryText {
-  
+  /* margin: 10px; */
   color: rgb(140 139 139);
   font-size: 0.9rem;
 }
