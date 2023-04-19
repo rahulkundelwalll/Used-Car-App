@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     let Links = [
-        { name: 'Recedencies', Links: '/recedencies' },
+        { name: 'Used Car', Links: '/recedencies' },
         { name: 'Our Value', Links: '/' },
         { name: 'Contact Us', Links: '/' },
         { name: 'Get Started', Links: '/' },

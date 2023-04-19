@@ -13,7 +13,7 @@ function Recedencies() {
             <div data-aos="fade-up"
            className="paddings innerWidth r-container">
                 <div className="r-head flexColStart">
-                    <span className='orangeText'>Popular Recedencies</span>
+                    <span className='orangeText'>Popular Car</span>
                 </div>
                 <Swiper {...sliderSettings}>
                     <SliderButton/>

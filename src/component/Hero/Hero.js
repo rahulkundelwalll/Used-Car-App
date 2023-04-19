@@ -19,8 +19,8 @@ function Hero() {
           </div>
           <div className="flexColStart hero-des">
 
-            <span className='secondaryText'>Find Your Property here. What waiting for?</span>
-            <span className='secondaryText'>Results You Deserve. Best Property you deserve</span> <br />
+            <span className='secondaryText'>Find Your best Car here. What waiting for?</span>
+            <span className='secondaryText'>Results You Deserve. Best Car you deserve</span> <br />
 
           </div>
           <div className="search-bar flexCenter">
@@ -31,16 +31,16 @@ function Hero() {
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={88} end={1000} duration={2} />
+                <CountUp className='colorgiving' start={88} end={1000} duration={2} />
                 <span>+</span>
 
               </span>
-              <span className='secondaryText'>premium Properties</span>
+              <span className='secondaryText'>premium Car</span>
 
             </div>
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8000} end={9000} duration={2} />
+                <CountUp className='colorgiving' start={8000} end={9000} duration={2} />
                 <span>+</span>
 
               </span>
@@ -49,11 +49,11 @@ function Hero() {
             </div>
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={100} end={500} duration={2} />
+                <CountUp className='colorgiving' start={100} end={500} duration={2} />
                 <span>+</span>
 
               </span>
-              <span className='secondaryText'>Awards Winning</span>
+              <span className='secondaryText colorgive'>Awards Winning</span>
 
             </div>
           </div>
